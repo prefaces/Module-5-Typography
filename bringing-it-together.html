@@ -4,27 +4,7 @@
   <head>
     <link href='http://fonts.googleapis.com/css?family=Roboto|Crimson Text' rel='stylesheet' type='text/css'>
     <style>
-      h1 {
-        font-family: 'Crimson Text', sans-serif;
-        color: #e60000;
-        text-decoration: underline;
-      }
-      li {
-        font-family: 'Roboto', cursive;
-        font-size: 22px;
-        color: #0000ff;
-        text-decoration: none;
-      a {
-        color:#006622;
-        text-decoration:none;
-        font-size: 22px;
-        font-family: 'Crimson Text', sans-serif;
-      }
-      img {
-        border: 8px solid black;
-        height: 300px;
-        width: 300px;
-      }
+
       p {
         font-family: 'Roboto', cursive;
         font-size: 18px;
@@ -34,29 +14,49 @@
     </style>
   </head>
   <body>
-    <h3>The Box Model</h3>
-	<img src="https://s3.amazonaws.com/codecademy-blog/assets/ae09140c.png"/>
-    <div id="header">
-			<div id="navbar">
-				<ul>
-					<li>Font 2</li>
-					<li>Roborto</li>
-				</ul>
-			</div>
-			<h1>Font 1: Crimson Text</h1>
-		</div>
+    <div id="header1">
+    	<h1>Font 1: Crimson Text</h1>
+    	h1 {
+        	font-family: 'Crimson Text', sans-serif;
+        	color: #e60000;
+        	text-decoration: underline;
+      	}
+    	</div>
+    <div id="header2">
+    	<h2>Font 2: Roborto</h2>
+    	h2 {
+        	font-family: 'Roboto', cursive;
+        	font-size: 22px;
+        	color: #0000ff;
+        	text-decoration: none;
+	</div>
+    <div id="left">
+    	<p> Crimson Text is clean, precise, and adds a bit of character. Roborto is clean and is a good text for writing. This block was written using Roborto!</p>
+    	</div>
     <div id="right">
-		<img src="http://uploads.neatorama.com/images/posts/587/74/74587/1407463055-0.jpg"/>
+	<img src="http://uploads.neatorama.com/images/posts/587/74/74587/1407463055-0.jpg"/>
+	img {
+        	border: 8px solid black;
+        	height: 300px;
+        	width: 300px;
+        }
 		<p>This page combines knowledge from Typography, Colour, and Layout Exercises.</p>
-		</div>
-		<div id="left">
-		<p> Crimson Text is clean, precise, and adds a bit of character. Roborto is clean and is a good text for writing. This block was written using Roborto!</p>
-		</div>
+		p {
+        		font-family: 'Roboto', cursive;
+        		font-size: 18px;
+        		color: #0000ff;
+        		text-decoration: none;
+      		}
+	</div>
 		<div id="footer">
-			<div id="button">
-				<a href="http://prefaces.ca/blog/">And here is my blog!</a>
+			<a href="http://prefaces.ca/blog/">And here is my blog!</a>
+			a {
+        			color:#006622;
+        			text-decoration:none;
+        			font-size: 22px;
+        			font-family: 'Crimson Text', sans-serif;
+      			}
 			</div>
 		</div>
   </body>
 </html>
-
